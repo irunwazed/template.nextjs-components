@@ -115,11 +115,11 @@ export const Card = ({
             <div className="absolute top-2 right-2 rounded-full text-xs font-bold bg-white px-2 py-1">
               {user.badge}
             </div>
-            <img
+            {/* <img
               src={user.image}
               className="rounded-tr-md rounded-tl-md text-sm "
               alt="thumbnail"
-            />
+            /> */}
             <div className="p-4">
               <h1 className="font-semibold text-sm ">{user.name}</h1>
               <h2 className=" text-gray-500 text-xs ">{user.designation}</h2>

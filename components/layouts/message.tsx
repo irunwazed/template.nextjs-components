@@ -22,7 +22,7 @@ export const Message = () => {
         >
             <div className={"bg-white px-4 py-2 rounded-t-md shadow-md text-sm flex items-center border-b border-slate-400/30"}>
                 <div>
-                    <img className="inline-block size-8 mr-2 rounded-full" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80" alt="Image Description"></img>
+                    {/* <img className="inline-block size-8 mr-2 rounded-full" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80" alt="Image Description"></img> */}
                     <div className="relative bottom-2 left-6 rounded-full size-[10px] bg-green-700 border border-white border-spacing-2"></div>
                 </div>
                 <div className="w-[200px]">Message</div>
